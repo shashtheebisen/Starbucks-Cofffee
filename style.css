@@ -1,0 +1,170 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#main img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 600px;
+    width: 650px;
+    z-index: 10;
+    object-fit: cover;
+}
+
+#main #box1{
+    width: 50%;
+    background-color:#20232C;
+}
+#box2{
+    width: 50%;
+    background-color: #3d5049;
+}
+#main #box1 h1{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-weight: 600;
+    font-family: Gilroy;
+    margin: 150px;
+    padding-left: 100px;
+    line-height: 80px;
+}
+#box1 #sbox1{
+    display: flex;
+    width: 200px;
+    height: 130px;
+    background-color:#00774d;
+    position: absolute;
+    bottom: 150px;
+    left: 0px;
+}
+
+#box1 #text1 {
+    position: absolute;
+    color: white;
+    bottom: 170px;
+    left: 100px;
+}
+#text1 p{
+    opacity: .6;
+}
+#box1 #para1{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#box1 #a1{
+    position: absolute;
+    bottom: 50px;
+    width: 150px;
+    height: 20px;
+    background-color:rgb(233, 91, 44)   ;
+}
+
+#box1 pre{
+    position: absolute;
+    bottom: 51px;
+    left: 90px;
+    color: white;
+    font-size: 15px;
+    opacity: .6;
+}
+
+
+#main h4{
+    color: rgb(230, 228, 228);
+    opacity: .6;
+    position: absolute;
+    top: 0%;
+    left: 10px;
+    margin: 40px;
+    font-size: 20px;
+}
+#main #box2>h1{
+    color:rgb(43, 38, 38);
+    font-size: 230px;
+    font-weight: 400;
+    opacity: .2;
+    font-family: Gilroy;
+    text-align: left;
+}
+#box2 #sbox2{
+    display: flex;
+    width: 350px;
+    height: 120px;
+    background-color: #20232C;
+    position: absolute;
+    bottom: 100px;
+    right: 0px;
+}
+#box2 #text2 {
+    position: absolute;
+    color: white;
+    bottom: 120px;
+    right: 15px;
+}
+#text2 p{
+    opacity: .6;
+}
+#box2 #para2{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#icon{
+    
+    color: rgb(202, 197, 197);
+    opacity: .5;
+    font-size: 40px;
+}
+#icon:hover{
+    cursor: pointer;
+}
+
+#icon #icon1{
+    position:absolute;
+    right: 40px;
+    top: 40px;
+}
+#icon #icon2{
+    position: absolute;
+    right: 40px;
+    bottom: 350px;
+}
+#icon #icon3{
+    position:absolute;
+    right: 40px;
+    bottom: 130px;
+}
+#icon h4{
+    position:absolute;
+    right: 30px;
+    bottom: 10px;
+    font-size: 20px;
+    cursor:none;
+}
+#icon4 i{
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    font-size: 200px;
+    color: rgb(233, 91, 44);
+    
+}
